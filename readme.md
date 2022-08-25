@@ -20,10 +20,9 @@ Muchas de las empresas auditoras y bancarias actualmente trabajaban con datos fi
 
 ### Archivos necesarias
 
-- En la carpeta raiz del proyecto  debemos crear el archivo **.env**, este archivo contendrá:
-	- La variable **WEB=** , que contendrá la url(string) de la web a la que realizaremos WebScraping, por defecto [TC Página](https://e-consulta.sunat.gob.pe/cl-at-ittipcam/tcS01Alias "TC Página")
-	- La variable **PATH_EDGE =** , que contendrá la dirección(path) del webdriver del navegador Edge. Lista de webdriver de Edge [aquí](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ "aquí")
-	- La variable **PATH_CHROME =** , que contendrá la dirección(path) del webdriver del navegador de Chrome. Lista de webdriver de Chrome [aquí](https://chromedriver.chromium.org/ "aquí")
+- Estamos utilizando la página de Sunat para poder adquirir los datos del tipo de cambio, el enlace a continuación, [TC Página](https://e-consulta.sunat.gob.pe/cl-at-ittipcam/tcS01Alias "TC Página")
+- La variable **PATH_EDGE =** , que contendrá la dirección(path) del webdriver del navegador Edge. Lista de webdriver de Edge [aquí](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ "aquí")
+
 
 ### Requerimientos
 |  Librería | Versión  |
